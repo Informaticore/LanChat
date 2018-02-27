@@ -1,0 +1,12 @@
+{
+    "name": "PLan",
+    "version": "0.0.0",
+    "description": "Plan your Lan",
+    "dependencies": {
+        "express": "latest",
+        "hashmap": "^2.3.0",
+        "jade": "latest",
+        "socket.io": "latest"
+    },
+    "author": "developer"
+}
