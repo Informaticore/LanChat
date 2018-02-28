@@ -8,7 +8,8 @@ TBD:
 - [ ] Vote Feature to let the audience vote for a Game or what ever
 
 ## How to use
-To run the server checkout the project and run ```node index.js``` 
+Checkout the project, open console and run ```npm install``` to install all nesecarry dependencies
+After this run ```node index.js``` 
 >NOTE: Nodes.js has to be installed on you computer
 
 The command will print something like
