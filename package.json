@@ -5,7 +5,7 @@
     "dependencies": {
         "express": "latest",
         "hashmap": "^2.3.0",
-        "jade": "latest",
+        "node-notifier": "^5.2.1",
         "socket.io": "latest"
     },
     "author": "developer"

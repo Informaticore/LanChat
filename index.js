@@ -17,7 +17,7 @@ io.sockets.on('connection', function (socket) {
 
 	socket.on('clientInfo', function(data){
         console.log( data.username + ' has connected to the chat. SocketId: ' + socket.id);
-        userMap.set(socket.id, data.username);
+        userMap.set(socket.id, data);
         io.sockets.emit('onUsersChanged', userMap.values());
     });
 

@@ -10,7 +10,7 @@
 <body>
   <nav class="navbar navbar-expand-md bg-primary navbar-dark">
     <div class="container">
-      <a class="navbar-brand" href="#"><i class="fa d-inline fa-lg fa-cloud"></i><b class="p-1">PLan</b></a>
+      <a class="navbar-brand" href="#"><i class="fa d-inline fa-lg fas fa-gamepad"></i><b class="p-1">PLan</b></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false"
         aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse text-center justify-content-end" id="navbar2SupportedContent"> </div>
@@ -19,8 +19,8 @@
   <div class="h-75 p-2">
     <div class="container">
       <div class="row">
-        <div class="h-75 col-md-8">
-          <div id="chat-content" class="list-group" style="overflow-y: scroll; height:72vh;">
+        <div class="h-75 col-md-9">
+          <div id="chat-content" class="list-group" style="overflow-y: scroll; height:72vh; background: #fff">
             <!-- <div class="list-group-item list-group-item-action flex-column align-items-start active">
              <div class="d-flex w-100 justify-content-between">
                 <h5 class="mb-1">List group</h5> <small>3 days ago</small> </div>
@@ -28,15 +28,10 @@
             <div class="list-group-item list-group-item-action flex-column align-items-start">
               <div class="d-flex w-100 justify-content-between">
                 <h5 class="mb-1">List group </h5> <small class="text-muted">3 days ago</small> </div>
-              <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p> <small class="text-muted">Donec id elit non mi porta.</small> </div>-->
-          </div>
+              <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p> <small class="text-muted">Donec id elit non mi porta.</small> </div>--></div>
         </div>
-        <div class="col-md-4">
-          <ul id="users-content" class="list-group" style="overflow-y: scroll; height:72vh;">
-            <li class="list-group-item d-flex justify-content-between align-items-center">Keule1 </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center">Someone </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center">nextPerson </li>
-          </ul>
+        <div class="col-md-3">
+          <ul id="users-content" class="list-group" style="overflow-y: scroll; height:72vh; background: #fff"> </ul>
         </div>
       </div>
     </div>
@@ -46,7 +41,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-9">
               <form class="form-inline">
                 <div class="input-group w-100">
                   <input type="text" class="form-control" placeholder="message" id="message-field">
@@ -56,8 +51,8 @@
                 </div>
               </form>
             </div>
-            <div class="col-md-4">
-              <a class="btn btn-primary" href="#">Create Voting</a>
+            <div class="col-md-3">
+              <a id="vote-btn" class="btn btn-primary" href="#">Create Voting</a>
             </div>
           </div>
         </div>
@@ -72,7 +67,7 @@
         </div>
         <div class="modal-body">
           <div class="input-group">
-            <input id="name-input" type="text" class="form-control" placeholder="type your name here" > </div>
+            <input id="name-input" type="text" class="form-control" placeholder="type your name here"> </div>
         </div>
         <div id="save-name-btn" class="modal-footer">
           <button type="button" class="btn btn-primary">Save</button>
@@ -85,6 +80,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="chat.js"></script>
   <script src="/socket.io/socket.io.js"></script>
+
 </body>
 
 </html>
