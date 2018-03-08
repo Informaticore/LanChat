@@ -21,3 +21,7 @@ To access the chat from a different computer within your network you just use th
 
 ## Changing the port
 Open the index.js file in a editor and change the line ``` var port = 61330; ``` to what ever port you want to use.
+
+## Screenshot
+![alt text](./screenshot_001.jpg?raw=true "Screenshot")
+
